@@ -20,6 +20,9 @@
       <wsdl:output>
         <soap12:body use="literal" />
       </wsdl:output>
+      <wsdl:fault name="MathFaultFault">
+        <soap12:fault use="literal" name="MathFaultFault" namespace="" />
+      </wsdl:fault>
     </wsdl:operation>
     <wsdl:operation name="Kurang">
       <soap12:operation soapAction="http://tempuri.org/IMatematika/Kurang" style="document" />
@@ -29,6 +32,9 @@
       <wsdl:output>
         <soap12:body use="literal" />
       </wsdl:output>
+      <wsdl:fault name="MathFaultFault">
+        <soap12:fault use="literal" name="MathFaultFault" namespace="" />
+      </wsdl:fault>
     </wsdl:operation>
     <wsdl:operation name="Kali">
       <soap12:operation soapAction="http://tempuri.org/IMatematika/Kali" style="document" />
@@ -38,6 +44,9 @@
       <wsdl:output>
         <soap12:body use="literal" />
       </wsdl:output>
+      <wsdl:fault name="MathFaultFault">
+        <soap12:fault use="literal" name="MathFaultFault" namespace="" />
+      </wsdl:fault>
     </wsdl:operation>
     <wsdl:operation name="Bagi">
       <soap12:operation soapAction="http://tempuri.org/IMatematika/Bagi" style="document" />
@@ -47,6 +56,9 @@
       <wsdl:output>
         <soap12:body use="literal" />
       </wsdl:output>
+      <wsdl:fault name="MathFaultFault">
+        <soap12:fault use="literal" name="MathFaultFault" namespace="" />
+      </wsdl:fault>
     </wsdl:operation>
     <wsdl:operation name="TKoordinat">
       <soap12:operation soapAction="http://tempuri.org/IMatematika/TKoordinat" style="document" />
@@ -56,6 +68,9 @@
       <wsdl:output>
         <soap12:body use="literal" />
       </wsdl:output>
+      <wsdl:fault name="MathFaultFault">
+        <soap12:fault use="literal" name="MathFaultFault" namespace="" />
+      </wsdl:fault>
     </wsdl:operation>
   </wsdl:binding>
 </wsdl:definitions>
